@@ -1,0 +1,83 @@
+*{  padding:0;  margin:0;  z-index: 1; }
+img{ border: none;  }
+a{  display: block;  text-decoration: none;  }
+li{  list-style: none;  }
+body{  background: #dcdcdc; }
+input{outline: none;}
+h1{text-align: center; margin: 0 auto 10px auto; padding-top: 20px;}
+button{background: none;border: none;}
+.clear{clear: both; }
+.center{text-align: center}
+dfn p{margin: 15px auto 20px 30px;}
+
+
+.backing{
+    background: url("../public/images/bgimg.jpg") repeat-x ;
+    width: 100%;
+    height: 100px;
+}
+.logo{line-height: 100px;text-align: center}
+
+/*水平居中的实现：父元素 text-align: center; 子元素display:inline-block;*/
+nav{width: 100%; height: auto; text-align: center; background: #fff;}
+.menu{display:inline-block;line-height: 50px; }
+.menu a{  float: left;  margin: 0 10px;padding: 0 10px;}
+.menu a:hover{border-bottom: solid 1px orange;}
+.menu .focus{border-bottom: solid 1px orange;}
+
+
+.mainLeft{position:relative;left: 10%;margin-right: 10px;width: 50%;float: left;margin-top: 30px;}
+.mainRight{position:relative;right: 10%;width: 25%;float: right;margin-top: 30px;}
+
+.listBox,.rightBox{width: 100%; height:auto;background: #fff; margin-bottom: 20px;display: inline-block;clear: both}
+.colDefault{text-align: center;font-size: 13px;}
+.colInfo{color: #00b3ee;}
+.function{display:inline-block;width:15%;background: orange;margin-left: 30px;margin-bottom: 20px;}
+.function a{color: #fff; text-align: center;line-height: 36px; font-size: 15px; }
+
+/*.pager{display: inline-block;width: 97%; height:auto;background: #fff;margin-bottom: 20px;padding: 10px 10px;}*/
+.pager { background: #fff;  height:40px;  padding-left: 0;  margin: 20px 0;  text-align: center;  list-style: none;  }
+.pager li {  display: inline;  }
+.pager span {display: inline-block;  padding: 10px 14px; }
+.pager .previous{float: left;}
+.pager .next{float: right;}
+
+
+.title{display:inline-block;width: 90%;margin: 20px 0 0 20px;border-bottom: 1px solid #dcdcdc;
+    padding-bottom:5px;}
+.title span{font-size: 20px;font-weight: bold;padding: 20px 10px 5px 0;  border-bottom: solid 1px orangered;}
+input{border:none;background: none;}
+.line{float: right;margin: 10px 35px 10px 0;}
+.line .colDark{display: inline-block;}
+.line input{padding: 5px 0 5px 5px;border:1px solid #dcdcdc;}
+.line button{background: orange;color: #fff;text-align: center;width: 170px;height: 30px;}
+.textRight{clear:both;display: inline-block; float: right;font-size: 13px;margin:0 35px 10px 0;  }
+.textRight .colMint{display: inline-block;color:#00b3ee;}
+.colWarning{clear: both;text-align: center;margin:0 0 20px 0;color:red;font-size: 14px;}
+.colDanger a{display: inline-block;font-size: 13px;}
+
+
+#userInfo .colDark{display:inline-block;margin:10px 0 10px 20px;}
+#userInfo .colDanger{display:inline-block;margin:10px 0 10px 20px;color: red;}
+
+
+/*
+view*/
+h3{padding:40px 20px 30px;}
+.textLeft{padding-left: 20px;margin-bottom: 20px;}
+.textLeft strong{float: left;}
+.textLeft span{float: right;font-weight: normal;font-size: 15px;}
+.textLeft textarea{float:left; padding:10px 0 5px 5px;height: 90px;width: 80%;}
+.textLeft button{height:108px;}
+
+#messageBtn{background: #cdcdcd;border: solid 2px #cdcdcd;padding: 0 20px;}
+.bgDanger{margin-bottom: 20px;text-align: center;background: red;color: #fff;padding: 5px 0;}
+
+.messageList{margin:10px 20px 20px 20px;}
+.messageBox{margin-bottom: 20px;border-bottom: solid 1px #cdcdcd;padding-bottom: 10px;}
+#messageCount{color: #00AA88;padding:0 5px;}
+.fl{float: left;padding-bottom: 10px;}
+.fr{float: right;font-size: 14px;}
+
+.pageLeft{margin: 0 20px;}
+.pageLeft span{margin:-10px -20px 0;}
